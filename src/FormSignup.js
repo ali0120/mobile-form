@@ -78,13 +78,12 @@ const FormSignup = ({ submitForm }) => {
         </div>
         <div className='form-inputs'>
         
-          <PhoneInput
-            inputProps={{
-              name: 'phone',
-              placeholder:'Mobile number',
-              required: true,
-              autoFocus: true
-            }}
+        <input
+            className='form-input'
+            type='text'
+            name='phone'
+            placeholder='Mobile number'
+            onChange={handleChange}
           />
         </div>
         <div className='form-inputs passStrength'>
