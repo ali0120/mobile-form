@@ -167,6 +167,7 @@
 } */
 .checkbox-container{
   display: flex;
+  justify-content: space-between;
   margin: 20px 0;
 }
 .checkbox-container:nth-child(2){
@@ -182,12 +183,16 @@
   font-size: 22px;
   line-height: 24px;
   height: 24px;
-  width: 50%;
   clear: both;
+  width: 40%;
 }
-
+.input-title.Email{
+  margin-left: 40%;
+}
+.input-title.Phone{
+  margin-left: 14%;
+}
 .checkbox-label input {
-  position: absolute;
   opacity: 0;
   cursor: pointer;
 }
@@ -360,7 +365,10 @@ border-radius: 0;
   width: 100%;
   background: #01A9B4;
 }
-
+.div-container{
+  display: flex;
+  justify-content: space-between;
+}
 @media(max-width:1024px){
   .form-container{
     display: flex;

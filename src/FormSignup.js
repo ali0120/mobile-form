@@ -42,14 +42,14 @@ const FormSignup = ({ submitForm }) => {
         </h1>
         <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
          <div className='form-inputs'>
-      {/*    <select className="form-input" id="country" name="country" >
+         <select className="form-input" id="country" name="country" >
            {countries.map((item)=>{
              return(
               <option key={item.key} value={item.value}>{item.text}</option>
 
              )
            })}
-         </select> */}
+         </select>
        
         </div>
         <div className='form-inputs'>
@@ -108,12 +108,21 @@ const FormSignup = ({ submitForm }) => {
         </h3>
         <div className="form-inputs">
         <div class="checkbox-container">
-        <label class="checkbox-label Phone">
+          <div className="div-container">
+          <label class="checkbox-label Phone">
             <input type="checkbox"/>
             <span class="checkbox-custom rectangular"></span>
         </label>
         <div class="input-title Phone">Phone number</div>
-        <div class="input-title"><a href="#">Email</a></div>
+          </div>
+          <div className="div-container">
+          <label class="checkbox-label Phone">
+            <input type="checkbox"/>
+            <span class="checkbox-custom rectangular"></span>
+        </label>
+          <div class="input-title Email">Email</div>
+
+          </div>
 
         </div>
         <div class="checkbox-container">
