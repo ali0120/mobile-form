@@ -9,7 +9,7 @@ import countries from './utils/country';
 import heroBcg2 from './assets/Group 1885.png'
 var zxcvbn = require("zxcvbn")
 const FormSignup = ({ submitForm }) => {
-  const [type, setType] = useState("input");
+  const [type, setType] = useState("password");
   const [score, setScore] = useState("null");
   const showHide = (e) => {
     e.preventDefault()
