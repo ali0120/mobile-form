@@ -113,9 +113,9 @@ const FormSignup = ({ submitForm }) => {
             <input type="checkbox"/>
             <span class="checkbox-custom rectangular"></span>
         </label>
-        <div class="input-title ">Phone number</div>
+        <div class="input-title mopile ">Phone number</div>
           </div>
-          <div className="div-container">
+          <div className="div-container Email">
           <label class="checkbox-label Email ">
             <input type="checkbox"/>
             <span class="checkbox-custom rectangular"></span>
