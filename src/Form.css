@@ -193,7 +193,7 @@
 }
 .checkbox-container .input-title.mopile{
   white-space: nowrap;
-
+color: #2581C5;
 }
 .checkbox-container .input-title p{
   font-size: 13px;
@@ -294,6 +294,9 @@ border-radius: 0;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
+}
+.verify{
+  margin-top: 20px;
 }
 .member{
   font-size: 13px;
