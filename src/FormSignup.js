@@ -109,18 +109,18 @@ const FormSignup = ({ submitForm }) => {
         <div className="form-inputs">
         <div class="checkbox-container">
           <div className="div-container">
-          <label class="checkbox-label Phone">
+          <label class="checkbox-label Phone ">
             <input type="checkbox"/>
             <span class="checkbox-custom rectangular"></span>
         </label>
-        <div class="input-title Phone">Phone number</div>
+        <div class="input-title ">Phone number</div>
           </div>
           <div className="div-container">
-          <label class="checkbox-label Phone">
+          <label class="checkbox-label Email ">
             <input type="checkbox"/>
             <span class="checkbox-custom rectangular"></span>
         </label>
-          <div class="input-title Email">Email</div>
+          <div class="input-title ">Email</div>
 
           </div>
 
